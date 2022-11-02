@@ -4,13 +4,13 @@ export default function Footer() {
     return (
         <>
         
-        <footer className="md:flex justify-between w-5/6 mx-auto mt-6">
+        <footer className="md:flex justify-between w-5/6 mx-auto mt-6 md:px-0 lg:mb-0 ">
             
-            <img src={Zuri} alt="zuri__logo" className="h-4" />
-            <span className="text-sm text-gray-500">
+            <img src={Zuri} alt="zuri__logo" className="h-4 md:mb-0 mb-3" />
+            <span className="md:text-sm text-xs text-gray-500 md:mb-0 lg:mb-0 mb-3">
                 HNG Internship 9 Frontend Task
             </span>
-            <img src={I4g} alt="i4g__logo" className="h-4" />
+            <img src={I4g} alt="i4g__logo" className="h-4 md:mt-0 mt-3" />
         </footer>
         </>
     )

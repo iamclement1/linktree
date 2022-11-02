@@ -47,7 +47,7 @@ export default function Landing() {
                 </div>
                 <div className="flex justify-center space-x-4 mt-8 mb-6">
                     <img src={Slack} alt="slack__image" className="h-6" />
-                    <img src={Github} alt="github__image" className="h-6" />
+                    <img src={Github} alt="github__image" className="h-6 cursor-pointer" onClick={() => window.location.herf ="https://github.com/iamclement1"} />
                 </div>
 
             </div>
