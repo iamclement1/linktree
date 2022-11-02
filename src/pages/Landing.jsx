@@ -10,7 +10,7 @@ export default function Landing() {
                 </h3>
             </div>
 
-            <div className="mt-12">
+            <div className="mt-12 text-sm">
                 <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center mb-6">
                     <span className="cursor-pointer" onClick={() => window.location.href = ""}>
                         Twitter Link
@@ -31,14 +31,14 @@ export default function Landing() {
                         Python Books
                     </span>
                 </div>
-                <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center">
+                <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center mb-6 ">
                     <span className="cursor-pointer " onClick={() => window.location.href = "https://background.zuri.team/"}>
                         Background Check for Coders
                     </span>
                 </div>
                 <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center">
                     <span className="cursor-pointer " onClick={() => window.location.href = "https://books.zuri.team/design-rules"}>
-                        Background Check for Coders
+                        Design Books
                     </span>
                 </div>
             </div>
