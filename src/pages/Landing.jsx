@@ -1,4 +1,7 @@
 import Profile from '../assets/profile.jpeg'
+import Slack from '../assets/slack.png';
+import Github from '../assets/github.png';
+
 export default function Landing() {
     return (
         <>
@@ -36,11 +39,16 @@ export default function Landing() {
                         Background Check for Coders
                     </span>
                 </div>
-                <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center">
+                <div className="bg-gray-300 p-4 w-3/6 mx-auto text-center mb-2">
                     <span className="cursor-pointer " onClick={() => window.location.href = "https://books.zuri.team/design-rules"}>
                         Design Books
                     </span>
                 </div>
+                <div>
+                    <img src={Slack} alt="slack__image" />
+                    <img src={Github} alt="github__image" />
+                </div>
+
             </div>
         </section>
         </>
