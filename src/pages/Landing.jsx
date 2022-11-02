@@ -45,7 +45,7 @@ export default function Landing() {
                         Design Books
                     </span>
                 </div>
-                <div className="flex justify-center space-x-4 mt-4">
+                <div className="flex justify-center space-x-4 mt-8 mb-6">
                     <img src={Slack} alt="slack__image" className="h-6" />
                     <img src={Github} alt="github__image" className="h-6" />
                 </div>
