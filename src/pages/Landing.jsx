@@ -16,7 +16,7 @@ export default function Landing() {
 
             <div className="mt-12 text-sm">
                 <div className="bg-gray-300 p-4 md:w-3/6 w-5/6 rounded-md mx-auto text-center mb-6">
-                    <span className="cursor-pointer" onClick={() => window.location.href = ""}>
+                    <span className="cursor-pointer" onClick={() => window.location.href = "https://twitter.com/_iamclement_"}>
                         Twitter Link
                     </span>
                 </div>
