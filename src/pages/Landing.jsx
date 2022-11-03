@@ -54,7 +54,6 @@ export default function Landing() {
             <div className="w-5/6 mx-auto mt-20">
             <hr  className="text-center"/>
             </div>
-            <Footer />
         </section>
         </>
     )
