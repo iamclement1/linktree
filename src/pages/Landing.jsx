@@ -49,7 +49,7 @@ export default function Landing() {
                         </a>
                     </div>
                     <div className="bg-gray-300 p-4 md:w-3/6 w-5/6 rounded-md mx-auto text-center mb-2">
-                        <a href="./contact.jsx" type="button" id="contact">
+                        <a href="/contact" type="button" id="contact">
                             <span className="cursor-pointer">
                                 Contact
                             </span>
