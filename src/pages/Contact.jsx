@@ -18,24 +18,41 @@ export default function Contact() {
                                         First name
                                     </label>
                                     <input class="appearance-none block w-full border border-gray-400
-                                    rounded text-gray-700 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Enter your first name" />
+                                    rounded text-gray-700 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Enter your first name" id="first_name" />
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div class="w-full md:w-1/2 px-3">
                                     <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                         Last name
                                     </label>
-                                    <input class="appearance-none block w-full text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Enter your last name" />
+                                    <input class="appearance-none block w-full text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Enter your last name" id="last_name" />
                                 </div>
                             </div>
                             <div class="w-full mb-6 md:mb-0">
-                                    <label class="block tracking-wide text-gray-700 text-xs font-semibold mb-2" for="grid-email">
-                                        Email
+                                <label class="block tracking-wide text-gray-700 text-xs font-semibold mb-2" for="grid-email">
+                                    Email
+                                </label>
+                                <input class="appearance-none block w-full border border-gray-400
+                                    rounded text-gray-700 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="yourname@email.com" id="email" />
+
+                            </div>
+                            <div class="w-full">
+                                <div class="mb-3 xl:w-full">
+                                    <label for="message" class="form-label inline-block
+                                    mb-2 text-gray-700 text-xs font-semibold">
+                                        Message
                                     </label>
-                                    <input class="appearance-none block w-full border border-gray-400
-                                    rounded text-gray-700 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-email" type="text" placeholder="yourname@email.com" />
-                                    
+                                    <textarea
+                                        class="form-control block w-full px-3 py-1.5 font-normal text-gray-700
+                                        bg-white bg-clip-padding border border-solid border-gray-300 rounded
+                                        focus:text-gray-700 text-sm focus:bg-white focus:border-blue-600 focus:outline-none"
+                                        id="message"
+                                        rows="4"
+                                        placeholder="Send me a message and I'll reply as soon as possible..."
+                                    ></textarea>
                                 </div>
+                            </div>
+                            
                         </form>
                     </div>
                 </div>

@@ -49,11 +49,11 @@ export default function Landing() {
                         </a>
                     </div>
                     <div className="bg-gray-300 p-4 md:w-3/6 w-5/6 rounded-md mx-auto text-center mb-2">
-                        <Link to="/contact">
+                        <a href="/contact" type="button" id="contact">
                             <span className="cursor-pointer">
                                 Contact
                             </span>
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex justify-center space-x-4 mt-8 mb-6">
                         <img src={Slack} alt="slack__image" className="h-6" id="slack"/> 
