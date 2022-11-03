@@ -15,15 +15,15 @@ export default function Contact() {
                             <div className="flex flex-wrap -mx-3 mb-2">
                                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                     <label className="block tracking-wide text-gray-700 text-xs font-semibold mb-2"
-                                        for="first_name">
+                                        htmlFor="first_name">
                                         First name
                                     </label>
                                     <input className="appearance-none block w-full border border-gray-400
                                     rounded text-gray-700 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Enter your first name" id="first_name" />
-                                    {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div className="w-full md:w-1/2 px-3">
-                                    <label className="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="last_name">
+                                    <label className="block tracking-wide text-gray-700 text-xs font-bold mb-2" 
+                                    htmlFor="last_name">
                                         Last name
                                     </label>
                                     <input className="appearance-none block w-full text-gray-700 border 
@@ -32,7 +32,7 @@ export default function Contact() {
                             </div>
                             <div className="w-full mb-3 md:mb-0">
                                 <label className="block tracking-wide text-gray-700 text-xs font-semibold mb-2"
-                                    for="grid-email">
+                                    htmlFor="email">
                                     Email
                                 </label>
                                 <input className="appearance-none block w-full border border-gray-400
@@ -41,7 +41,7 @@ export default function Contact() {
                             </div>
                             <div className="w-full">
                                 <div className="mb-3 xl:w-full">
-                                    <label for="message" className="form-label inline-block
+                                    <label htmlFor="message" className="form-label inline-block
                                     mb-2 text-gray-700 text-xs font-semibold">
                                         Message
                                     </label>
