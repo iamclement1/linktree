@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './component/Footer';
+import Contact from './pages/Contact';
 import Landing from './pages/Landing';
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Landing />
+        <Routes>
+          <Route path="/" element={ <Landing /> } />
+          <Route path="contact" element={ <Contact /> } />
+        </Routes>
       </div>
       <Footer />
     </Router>
