@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App font-inter">
         <Routes>
           <Route path="/" element={ <Landing /> } />
           <Route path="contact" element={ <Contact /> } />
