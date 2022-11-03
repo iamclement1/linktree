@@ -2,7 +2,7 @@ export default function Contact() {
     return (
         <>
             <section>
-                <div className="mx-auto md:w-3/6 mt-32 md:p-0 p-4">
+                <div className="mx-auto md:w-3/6 md:mt-32 mt-12 md:p-0 p-4">
                     <h3 className="md:text-xl text-2xl font-semibold">
                         Contact Me
                     </h3>
